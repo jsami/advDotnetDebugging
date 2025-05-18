@@ -50,12 +50,6 @@
         <Copy SourceFiles="$(appname).pdb"
            DestinationFolder="C:\ADNDBin" />
 
-        <Copy SourceFiles="05native.dll"
-           DestinationFolder="C:\ADNDBin" />
-
-        <Copy SourceFiles="05Native.pdb"
-           DestinationFolder="C:\ADNDBin" />
-
         <!-- Log the file name of the output file -->
         <Message Text="The output file is @(EXEFile)"/>
     </Target>
