@@ -50,12 +50,6 @@
         <Copy SourceFiles="$(appname).pdb"
            DestinationFolder="C:\ADNDBin" />
 
-        <Copy SourceFiles="05Native.dll"
-           DestinationFolder="C:\ADNDBin" />
-
-        <Copy SourceFiles="05Native.pdb"
-           DestinationFolder="C:\ADNDBin" />
-
         <Copy SourceFiles="05heap.exe.mda.config"
            DestinationFolder="C:\ADNDBin" />
 
